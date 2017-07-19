@@ -6,7 +6,9 @@
 @cromignon has made an image for us in his [own repository](https://github.com/cromigon/ubooquity-docker), but doesn't seems to maintain it anymore.  
 This image is built to be as lighweight and simple as possible. It is based on latest alpine and java 8.  
 
-- **Ubooquity version** : 2.0.2
+@zerpex has not updated to 2.1.0 yet, so I went ahead and forked it. Will try and update version to latest whenever Ubooquity updates.
+
+- **Ubooquity version** : 2.1.0
 
 ## About Ubooquity
 
@@ -46,7 +48,7 @@ docker run --restart=always -d \
   -v /PATH/TO/COMICSANDBOOKS:/media \
   -p 2202:2202 \
   -p 2502:2502 \
-  zerpex/ubooquity-docker
+  gauntletdev/ubooquity-docker
   
 ```
 
